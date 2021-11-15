@@ -23,7 +23,7 @@ while True:
                 rfile.close()
 
     def vercadastro():
-        webbrowser.open('file:///' + os.getcwd() +'/register')
+        webbrowser.open('file:///' + os.getcwd() +'/cadastro.txt')
 
     def menu(choices):
         range = 0
